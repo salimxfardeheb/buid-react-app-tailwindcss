@@ -1,6 +1,7 @@
 import React from "react";
 import logo from "../../assets/logo.png";
-import DarkMode from "./DarkMode.jsx"
+import DarkMode from "./DarkMode.jsx";
+import MenuItems from "./menu-items.jsx";
 import { IoMdSearch } from "react-icons/io";
 import { FaCartShopping } from "react-icons/fa6";
 
@@ -39,12 +40,14 @@ const Navbar = () => {
               <FaCartShopping className="text-xl text-white drop-shadow-sm cursor-pointer" />
             </button>
             {/* Darkmode Switch */}
-            <DarkMode/>
+            <DarkMode />
           </div>
         </div>
       </div>
       {/* lower Navbar */}
-      <div></div>
+      <div className="flex justify-center items-center">
+        <MenuItems />
+      </div>
     </div>
   );
 };
