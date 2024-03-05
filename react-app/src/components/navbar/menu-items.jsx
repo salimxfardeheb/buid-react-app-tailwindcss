@@ -18,12 +18,12 @@ const Menu = [
     link: "/#",
   },
   {
-    id: 3,
+    id: 4,
     name: "Mens Wear",
     link: "/#",
   },
   {
-    id: 3,
+    id: 5,
     name: "Electronics",
     link: "/#",
   },
